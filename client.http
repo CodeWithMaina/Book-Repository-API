@@ -1,0 +1,37 @@
+
+
+//Getting all books
+###
+GET http://localhost:5000/books
+
+//Getting a book
+###
+GET http://localhost:5000/book/1
+
+//Creating a book
+###
+POST http://localhost:5000/book
+content-type: application/json
+
+{
+    "bookTittle": "Humble Thief",
+    "bookAuthorName": "Mad Stuff",
+    "publishedYear": 2000,
+    "bookGenre": "Hollywood Movie"
+}
+
+//Updating a book
+###
+PUT http://localhost:5000/book/5
+content-type: application/json
+
+{
+    "bookTittle": "Criminal Minds",
+    "bookAuthorName": "McCuba Dirk",
+    "publishedYear": 2010,
+    "bookGenre": "Criminal Investigation"
+}
+
+//Deleting a book
+###
+DELETE  http://localhost:5000/book/6
