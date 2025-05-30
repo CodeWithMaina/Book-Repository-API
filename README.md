@@ -24,7 +24,7 @@ A simple RESTful API for managing a book repository built with Node.js, Express,
 1. **Clone the repository**
    ```bash
    git clone https://github.com/CodeWithMaina/Book-Repository-API.git
-   cd book-repository-api
+   cd Book-Repository-API
 2. **Install Dependencies**
    pnpm install
 3. **Set up environment variables**
