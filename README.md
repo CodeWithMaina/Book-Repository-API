@@ -23,7 +23,7 @@ A simple RESTful API for managing a book repository built with Node.js, Express,
 
 1. **Clone the repository**
    ```bash
-   git clone [repository-url]
+   git clone https://github.com/CodeWithMaina/Book-Repository-API.git
    cd book-repository-api
 2. **Install Dependencies**
    pnpm install
@@ -41,11 +41,11 @@ A simple RESTful API for managing a book repository built with Node.js, Express,
     pnpm run dev
 
 # 📝 API Endpoints
-GET	/api/books	Get all books
-GET	/api/books/:id	Get a single book by ID
-POST	/api/books	Create a new book
-PUT	/api/books/:id	Update an existing book by ID
-DELETE	/api/books/:id	Delete a book by ID
+GET	    /books	Get all books
+GET	    /books/:id	Get a single book by ID
+POST	/books	Create a new book
+PUT	    /books/:id	Update an existing book by ID
+DELETE	/books/:id	Delete a book by ID
 
 # 📄 License
 MIT
