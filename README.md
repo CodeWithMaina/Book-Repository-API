@@ -41,11 +41,15 @@ A simple RESTful API for managing a book repository built with Node.js, Express,
     pnpm run dev
 
 # 📝 API Endpoints
-GET	    /books	Get all books
-GET	    /books/:id	Get a single book by ID
-POST	/books	Create a new book
-PUT	    /books/:id	Update an existing book by ID
-DELETE	/books/:id	Delete a book by ID
+
+| Method | Endpoint      | Description                   |
+|--------|---------------|-------------------------------|
+| GET    | `/books`      | Get all books                 |
+| GET    | `/books/:id`  | Get a single book by ID       |
+| POST   | `/books`      | Create a new book             |
+| PUT    | `/books/:id`  | Update an existing book by ID |
+| DELETE | `/books/:id`  | Delete a book by ID           |
+
 
 # 📄 License
 MIT
